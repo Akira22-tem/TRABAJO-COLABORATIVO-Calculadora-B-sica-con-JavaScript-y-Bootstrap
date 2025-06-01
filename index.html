@@ -10,14 +10,57 @@
 <body>
      <div class="container-fluid py-5">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <h2 class="text-center title">Calculadora Básica</h2>
-                <div class="calculator-container p-4">
-                    <!-- Display principal -->
-                    <input type="text" id="display" class="form-control display mb-3" 
-                           placeholder="0" readonly>
-                    
-                    
+            <div class="col-12 col-md-8 col-lg-6">
+                <h2 class="text-center mb-4">Calculadora Básica</h2>
+                <div class="d-flex border p3 gap-3 justify-content-between">
+                    <!-- primera seccion con el Display y teclado numérico -->
+                    <div class="flex-grow-1 border p-3">
+                        <input type="text" id="display" class="form-control mb-3 text-end" placeholder="0" readonly>
+                        <div class="row g-2">
+                            <!-- teclado en fila del 7 al 9-->
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('7')">7</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('8')">8</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('9')">9</button>
+                            </div>
+                            <!-- teclado en fila del 4 al 6-->
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('4')">4</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('5')">5</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('6')">6</button>
+                            </div>                            
+                            <!-- teclado en fila del 1 al 3-->
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('1')">1</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('2')">2</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('3')">3</button>
+                            </div>                             
+                            <!-- teclado en fila con . 0  ,-->
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('.')">.</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber('0')">0</button>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-dark w-100" onclick="addNumber(',')">,</button>
+                            </div>                             
+                        </div> 
+                    </div>
+                    <!-- la segunda seccion es para los procesos suma,resta,multiplicacion,divicion, el igual y el limpiar -->
+
                 </div>
             </div>
         </div>
