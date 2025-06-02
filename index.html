@@ -19,43 +19,43 @@
                         <div class="row g-2">
                             <!-- teclado en fila del 7 al 9-->
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('7')">7</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('7')">7</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('8')">8</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('8')">8</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('9')">9</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('9')">9</button>
                             </div>
                             <!-- teclado en fila del 4 al 6-->
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('4')">4</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('4')">4</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('5')">5</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('5')">5</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('6')">6</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('6')">6</button>
                             </div>                            
                             <!-- teclado en fila del 1 al 3-->
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('1')">1</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('1')">1</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('2')">2</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('2')">2</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('3')">3</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('3')">3</button>
                             </div>                             
                             <!-- teclado en fila con . 0  ,-->
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('.')">.</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('.')">.</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber('0')">0</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero('0')">0</button>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-dark w-100" onclick="addNumber(',')">,</button>
+                                <button class="btn btn-outline-dark w-100" onclick="agregarNumero(',')">,</button>
                             </div>                             
                         </div> 
                     </div>
@@ -63,12 +63,12 @@
 
                     <!-- Sección 2: Botones de operaciones -->
                     <div class="d-flex flex-column gap-2 border p-3" style="width: 150px;">
-                        <button class="btn btn-outline-primary" onclick="selectOperation('+')">+</button>
-                        <button class="btn btn-outline-info" onclick="selectOperation('-')">−</button>
-                        <button class="btn btn-outline-secondary" onclick="selectOperation('*')">×</button>
-                        <button class="btn btn-outline-warning" onclick="selectOperation('/')">÷</button>
-                        <button class="btn btn-outline-danger" onclick="clearCalculator()">Limpiar</button>
-                        <button class="btn btn-outline-success" onclick="calculateResult()">=</button>
+                        <button class="btn btn-outline-primary" onclick="seleccionarOperacion('+')">+</button>
+                        <button class="btn btn-outline-info" onclick="seleccionarOperacion('-')">−</button>
+                        <button class="btn btn-outline-secondary" onclick="seleccionarOperacion('*')">×</button>
+                        <button class="btn btn-outline-warning" onclick="seleccionarOperacion('/')">÷</button>
+                        <button class="btn btn-outline-danger" onclick="limpiarCalculadora()">Limpiar</button>
+                        <button class="btn btn-outline-success" onclick="calcularResultado()">=</button>
                     </div>
 
                 </div>
