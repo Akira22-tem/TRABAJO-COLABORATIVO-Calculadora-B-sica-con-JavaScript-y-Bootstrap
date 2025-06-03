@@ -21,7 +21,7 @@ function agregarNumero(num) {
         pantalla.value = numeroSegundo;
     }
 }
-// funcoin para seleccionar la operacion
+// funcion para seleccionar la operacion
 function seleccionarOperacion(op) {
     if (numeroPrimero === '') return;
     operacionActual = op;
